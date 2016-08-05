@@ -1621,6 +1621,9 @@
 	
 	<!-- QS shade transparency -->
 	<string name="qs_transparent_shade">QS Panel Opacity</string>
+
+        <!-- Notifications transparency -->
+        <string name="notifications_transparency">Notifications transparency</string>
 	
 	<!-- Safe headset volume restore checkbox -->
 	<string name="safe_headset_volume_title">Safe headset volume</string>
@@ -2080,6 +2083,9 @@
         <string name="smartbar_config_restore_success_toast">Smartbar profile successfully restored</string>
         <string name="smartbar_config_backup_error_toast">Error saving Smartbar profile</string>
         <string name="smartbar_config_restore_error_toast">Error restoring Smartbar profile</string>
+
+         <!-- Navbar buttons transparency -->
+         <string name="navbar_buttons_alpha_title">Buttons transparency</string>
 
     
 	<!-- QS Tiles Columns -->
