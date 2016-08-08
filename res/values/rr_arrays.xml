@@ -177,10 +177,10 @@
 
      <!-- Battery Bar -->
      <string-array name="battery_bar_entries">
-         <item>Hide</item>
-         <item>Statusbar</item>
-         <item>Top of navbar</item>
-         <item>Bottom of navbar</item>
+         <item>@string/battery_bar_hide</item>
+         <item>@string/battery_bar_statusbar</item>
+         <item>@string/battery_bar_navbar_top</item>
+         <item>@string/battery_bar_navbar_bottom</item>
      </string-array>
  
      <string-array name="battery_bar_values" translatable="false">
@@ -917,12 +917,12 @@
 
     <!-- Auto keyboard rotation -->
     <string-array name="keyboard_rotation_timeout_entries" translatable="false">
-        <item>2s</item>
-        <item>5s</item>
-        <item>10s</item>
-        <item>20s</item>
-        <item>30s</item>
-        <item>60s</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
     </string-array>
 
     <string-array name="keyboard_rotation_timeout_values" translatable="false">
@@ -1602,9 +1602,9 @@
     </string-array>
 
     <string-array name="qs_num_columns_entries">
-        <item>Three</item>
-        <item>Four</item>
-        <item>Five</item>
+        <item>@string/qs_3_columns</item>
+        <item>@string/qs_4_columns</item>
+        <item>@string/qs_5_columns</item>
     </string-array>
     
      <!-- Heads up timeout -->
@@ -1897,5 +1897,48 @@
         <item>10</item>
         <item>11</item>
 </string-array>
+
+    <!-- Halo -->
+    <string-array name="entries_halo_size">
+        <item>@string/halo_size_miniscule</item>
+        <item>@string/halo_size_small</item>
+        <item>@string/halo_size_default</item>
+        <item>@string/halo_size_large</item>
+        <item>@string/halo_size_gigantic</item>
+        <item>@string/halo_size_monster</item>
+    </string-array>
+
+    <string-array name="values_halo_size" translatable="false">
+        <item>0.6</item>
+        <item>0.8</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.4</item>
+        <item>1.6</item>
+    </string-array>
+
+    <string-array name="entries_halo_notification_count">
+        <item>@string/halo_notification_count_none</item>
+        <item>@string/halo_notification_count_total</item>
+        <item>@string/halo_notification_count_individual</item>
+        <item>@string/halo_notification_count_both</item>
+    </string-array>
+
+    <string-array name="values_halo_notification_count">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="entries_halo_msgbox_animation">
+        <item>@string/halo_msgbox_animation_none</item>
+        <item>@string/halo_msgbox_animation_flip</item>
+    </string-array>
+
+    <string-array name="values_halo_msgbox_animation">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
     
 </resources>
